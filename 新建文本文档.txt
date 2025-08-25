@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跨境电商业务架构图</title>
+</head>
+<body style="margin: 0; padding: 20px; font-family: 'Segoe UI', Arial, sans-serif; background-color: #f5f5f5;">
+    <!-- 架构图标题 -->
+    <div style="text-align: center; margin-bottom: 20px; font-size: 20px; font-weight: bold;">跨境电商业务架构图</div>
+    
+    <!-- 整体容器 -->
+    <div style="display: flex; flex-direction: column; gap: 10px; width: 100%;">
+        
+        <!-- 1. 用户层 -->
+        <div style="background-color: #e6f7ff; padding: 10px; border-radius: 4px;">
+            <div style="font-weight: bold; margin-bottom: 8px; color: #1890ff;">用户层</div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 4px;">
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">境内消费者</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">境外消费者</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">企业采购商</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">品牌方</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">供应商</div>
+            </div>
+        </div>
+        
+        <!-- 2. 应用层 -->
+        <div style="background-color: #fff7e6; padding: 10px; border-radius: 4px;">
+            <div style="font-weight: bold; margin-bottom: 8px; color: #fa8c16;">应用层</div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 4px;">
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">PC商城</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">移动APP</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">小程序</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">商家后台</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">运营平台</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">客服系统</div>
+            </div>
+        </div>
+        
+        <!-- 3. 服务层 -->
+        <div style="background-color: #f6ffed; padding: 10px; border-radius: 4px;">
+            <div style="font-weight: bold; margin-bottom: 8px; color: #52c41a;">服务层</div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 4px;">
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">商品服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">订单服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">支付服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">物流服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">清关服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">用户服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">营销服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">搜索服务</div>
+            </div>
+        </div>
+        
+        <!-- 4. 数据层 -->
+        <div style="background-color: #fff0f6; padding: 10px; border-radius: 4px;">
+            <div style="font-weight: bold; margin-bottom: 8px; color: #eb2f96;">数据层</div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 4px;">
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">用户数据库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">商品数据库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">订单数据库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">物流数据库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">支付数据库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">数据仓库</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">缓存系统</div>
+            </div>
+        </div>
+        
+        <!-- 5. 基础设施层 -->
+        <div style="background-color: #f0f2f5; padding: 10px; border-radius: 4px;">
+            <div style="font-weight: bold; margin-bottom: 8px; color: #434343;">基础设施层</div>
+            <div style="display: flex; gap: 10px; flex-wrap: wrap; background-color: rgba(255, 255, 255, 0.7); padding: 10px; border-radius: 4px;">
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">云服务器</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">CDN加速</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">负载均衡</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">安全防护</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">容器服务</div>
+                <div style="border: 1px solid #d9d9d9; padding: 8px 12px; border-radius: 2px; min-width: 100px; text-align: center;">监控系统</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
